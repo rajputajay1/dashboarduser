@@ -79,7 +79,7 @@ const EmployeePageContainer = ({ employees, onSearch, onDepartmentFilter }) => {
                     <td className="border px-4 py-2">{employee.name}</td>
                     <td className="border px-4 py-2">{employee.email}</td>
                     <td className="border px-4 py-2">{employee.department}</td>
-                    <td className="border px-4 py-2">{employee.company.bs}</td>
+                    <td className="border px-4 py-2">{employee.website}</td>
                   </tr>
                 ))
               ) : (
